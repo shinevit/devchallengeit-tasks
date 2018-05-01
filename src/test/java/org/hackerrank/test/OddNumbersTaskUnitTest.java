@@ -19,11 +19,11 @@ import org.mockito.Mockito;
 @RunWith(JUnit4.class)
 public class OddNumbersTaskUnitTest extends Mockito {
 
-    // create a mock
     private OddNumbersTask mockOddNumbers;
 
     @Before
     public void setUp()  {
+        // create a mock
         mockOddNumbers = mock(OddNumbersTask.class);
     }
 
